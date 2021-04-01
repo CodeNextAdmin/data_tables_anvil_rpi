@@ -1,6 +1,6 @@
 import anvil.server
 from anvil.tables import app_tables
-from sense_emu import SenseHat
+from sense_hat import SenseHat
 from time import sleep
 from datetime import datetime
 
