@@ -7,8 +7,8 @@ from datetime import datetime
 sense = SenseHat()
  
  
-anvil.server.connect("LCVW7GRCOJLKWOJPQ7QWJK6I-HBPGXTB5NGHBE7EK")
-
+anvil.server.connect("<Add your Connect ID here>")
+#anvil.server.connect()
 
 @anvil.server.callable
 def get_env_data():
