@@ -7,7 +7,7 @@ from datetime import datetime
 sense = SenseHat()
  
  
-anvil.server.connect("<Add your Connect ID here>")
+anvil.server.connect("<Add your Anvil Uplink Key here>")
 #anvil.server.connect(ANVIL_CONNECT_SECRET)
 
 @anvil.server.callable
