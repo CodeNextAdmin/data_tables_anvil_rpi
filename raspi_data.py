@@ -8,7 +8,7 @@ sense = SenseHat()
  
  
 anvil.server.connect("<Add your Connect ID here>")
-#anvil.server.connect()
+#anvil.server.connect(ANVIL_CONNECT_SECRET)
 
 @anvil.server.callable
 def get_env_data():
